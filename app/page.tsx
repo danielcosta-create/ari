@@ -21,7 +21,7 @@ function Form({ password, onChangePassword, handleSubmit }: FormProps) {
         placeholder="Digite sua senha"
         value={password}
         onChange={onChangePassword}
-        className="p-2 border border-gray-300 rounded-md"
+        className="w-full max-w-3xl p-2 border border-gray-300 rounded-md"
       />
       <button
         type="submit"
