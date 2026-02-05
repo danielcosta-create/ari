@@ -15,7 +15,7 @@ function Form({ password, onChangePassword, handleSubmit }: FormProps) {
   };
 
   return (
-    <form onSubmit={handleFormSubmit} className="flex flex-col items-center gap-3">
+    <form onSubmit={handleFormSubmit} className="w-full flex flex-col items-center gap-3">
       <input
         type="password"
         placeholder="Digite sua senha"
@@ -77,7 +77,7 @@ export default function Home() {
   }, [step, counter]);
 
   return (
-    <div className="bg-blue-600 text-white min-h-dvh flex flex-col justify-center items-center gap-6">
+    <div className="w-full bg-blue-600 text-white min-h-dvh flex flex-col justify-center items-center gap-6">
       <div className="absolute top-4 right-4 bg-white text-black p-2 rounded-md text-sm max-w-xs">
         Disclaimer: isso não é para ter uma boa UI
       </div>
